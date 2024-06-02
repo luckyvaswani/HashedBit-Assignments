@@ -1,0 +1,106 @@
+body,ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menubar{
+    background-color: black;
+}
+.menubar ul{
+    overflow: auto;
+}
+.menubar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 130px;
+    
+}
+.menubar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.menubar li a:hover{
+    color: mediumorchid;
+    
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+.header .logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.header .social-icons a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+.header .social-icons a:hover {
+    color: #ddd;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+.sidebar {
+    height: 100vh; 
+    width: 250px; 
+    position: fixed; 
+    
+    left: 0;
+    background-color:black; 
+    padding-top: 20px;
+}
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: #bcbcbc;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Box styles */
+.box-container {
+    
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.box {
+    background-color: white;
+    border: 1px solid black;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+.box img {
+    border:1px solid;
+    width: 100%;
+    height: auto;
+   
+
+}
